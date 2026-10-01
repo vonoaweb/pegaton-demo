@@ -1,0 +1,213 @@
+/* Pegaton 2026 - Custom Styles and Keyframe Animations */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary-yellow: #facc15;
+  --primary-gold: #eab308;
+  --accent-amber: #d97706;
+  --dark-slate: #0b0f19;
+  --dark-card: #131b2e;
+  --dark-border: #1f293d;
+  --eco-green: #10b981;
+  --alert-red: #ef4444;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #1e293b;
+  background-color: #f8fafc;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+  background: #facc15;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #eab308;
+}
+
+/* Glassmorphism Classes */
+.glass-dark {
+  background: rgba(11, 15, 25, 0.85);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.glass-card-dark {
+  background: rgba(19, 27, 46, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+/* Glowing Effects */
+.glow-yellow {
+  box-shadow: 0 0 25px -5px rgba(250, 204, 21, 0.35);
+}
+
+.glow-green {
+  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.35);
+}
+
+/* Hero Badge Floating Animation */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+}
+
+@keyframes floatReverse {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(12px) rotate(-1deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+.animate-float {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: floatReverse 6s ease-in-out 1s infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* 3D Card Hover Tilt */
+.tilt-card {
+  transition: all 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.tilt-card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.12), 0 0 20px -2px rgba(250, 204, 21, 0.2);
+}
+
+/* Product Card Image Container */
+.product-img-wrapper {
+  background: radial-gradient(circle at center, #ffffff 40%, #f1f5f9 100%);
+  transition: all 0.4s ease;
+}
+
+.product-card:hover .product-img-wrapper img {
+  transform: scale(1.08) translateY(-4px);
+}
+
+.product-img-wrapper img {
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Sticky Adhesion Demonstration Bar */
+.adhesion-meter {
+  height: 8px;
+  border-radius: 4px;
+  background: #e2e8f0;
+  overflow: hidden;
+  position: relative;
+}
+
+.adhesion-meter-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #facc15, #f59e0b, #ef4444);
+  width: 98%;
+  border-radius: 4px;
+  animation: pulseGlow 3s infinite;
+}
+
+/* Diagonal stripes pattern for industrial safety feel */
+.hazard-stripe {
+  background: repeating-linear-gradient(
+    -45deg,
+    #facc15,
+    #facc15 15px,
+    #000000 15px,
+    #000000 30px
+  );
+}
+
+/* Step Badge Number */
+.step-number-circle {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+
+/* Custom WhatsApp floating pulse */
+@keyframes whatsappPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.whatsapp-pulse {
+  animation: whatsappPulse 2s infinite;
+}
+
+/* Tab active transitions */
+.pest-tab-btn.active {
+  background-color: #0b0f19;
+  color: #facc15;
+  border-color: #facc15;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+.cat-filter-btn.active {
+  background-color: #facc15;
+  color: #0b0f19;
+  font-weight: 700;
+  box-shadow: 0 4px 14px 0 rgba(250, 204, 21, 0.39);
+}
+
+/* Modal styling */
+.modal-backdrop {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}

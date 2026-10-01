@@ -1,0 +1,1467 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pegatón® | Trampas de Pegamento Profesionales - Cero Venenos, Máxima Adherencia</title>
+  <meta name="description" content="Pegatón es la trampa de pegamento #1 en México con calidad de exportación. No se chorrea, 100% no tóxica, para ratas, ratones, moscas y cucarachas. Precios de mayoreo para ferreterías y distribuidores." />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              yellow: '#FACC15',
+              gold: '#EAB308',
+              amber: '#D97706',
+              dark: '#0B0F19',
+              card: '#131B2E',
+              border: '#1F293D',
+              green: '#10B981',
+              red: '#EF4444'
+            }
+          },
+          fontFamily: {
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            heading: ['Outfit', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- AOS Animations -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+</head>
+<body class="bg-slate-50 text-slate-900 selection:bg-yellow-400 selection:text-slate-900 antialiased">
+
+  <!-- Top Announcement Bar -->
+  <div class="bg-slate-950 text-white text-xs py-2 px-4 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center space-x-2">
+        <span class="inline-flex items-center justify-center px-2 py-0.5 rounded text-[10px] font-bold bg-yellow-400 text-slate-950 uppercase tracking-wider">Líder Nacional</span>
+        <span class="text-slate-300">Fabricado en Jalisco, México | Calidad de Exportación</span>
+      </div>
+      <div class="flex items-center space-x-6 text-slate-300">
+        <a href="tel:3310580620" class="hover:text-yellow-400 flex items-center gap-1.5 transition">
+          <i data-lucide="phone" class="w-3.5 h-3.5 text-yellow-400"></i>
+          <span>(33) 10 58 0620</span>
+        </a>
+        <a href="#distribuidores" class="hover:text-yellow-400 flex items-center gap-1.5 transition hidden sm:flex">
+          <i data-lucide="package" class="w-3.5 h-3.5 text-yellow-400"></i>
+          <span>Ventas por Mayoreo & Ferreterías</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <header id="mainNavbar" class="sticky top-0 z-40 bg-slate-950/90 backdrop-blur-md border-b border-slate-800/80 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center space-x-3 group">
+        <div class="bg-white p-1.5 rounded-lg shadow-md border border-yellow-400/50 group-hover:scale-105 transition-transform duration-200">
+          <img src="assets/logo.png" alt="Pegatón Logo" class="h-10 w-auto object-contain" />
+        </div>
+        <div class="hidden sm:block">
+          <div class="flex items-center gap-1.5">
+            <span class="text-xl font-extrabold tracking-tight text-white font-heading">PEGATÓN<span class="text-yellow-400">®</span></span>
+            <span class="text-[10px] bg-yellow-400/10 text-yellow-400 font-semibold px-2 py-0.5 rounded-full border border-yellow-400/30">MÁXIMO PODER</span>
+          </div>
+          <p class="text-[11px] text-slate-400 font-medium tracking-wide">Trampas de Pegamento Profesionales</p>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden lg:flex items-center space-x-7 text-sm font-semibold text-slate-200">
+        <a href="#soluciones" class="hover:text-yellow-400 transition-colors">Soluciones</a>
+        <a href="#productos" class="hover:text-yellow-400 transition-colors">Productos</a>
+        <a href="#ventajas" class="hover:text-yellow-400 transition-colors">¿Por qué Pegatón?</a>
+        <a href="#aplicacion" class="hover:text-yellow-400 transition-colors">Uso & Seguridad</a>
+        <a href="#distribuidores" class="hover:text-yellow-400 transition-colors">Mayoreo / B2B</a>
+        <a href="#sectores" class="hover:text-yellow-400 transition-colors">Sectores</a>
+        <a href="#contacto" class="hover:text-yellow-400 transition-colors">Contacto</a>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="hidden sm:flex items-center space-x-3">
+        <a href="#distribuidores" class="px-4 py-2 rounded-xl text-xs font-bold text-slate-200 bg-slate-800 hover:bg-slate-700 border border-slate-700 transition">
+          Calculadora B2B
+        </a>
+        <a href="https://wa.me/523310580620?text=Hola%20Pegat%C3%B3n,%20quisiera%20solicitar%20cotizaci%C3%B3n%20y%20cat%C3%A1logo%20de%20mayoreo." target="_blank" class="px-5 py-2.5 rounded-xl text-xs font-extrabold text-slate-950 bg-gradient-to-r from-yellow-400 to-amber-400 hover:from-yellow-300 hover:to-amber-300 shadow-lg shadow-yellow-400/20 flex items-center gap-2 transition hover:-translate-y-0.5">
+          <i data-lucide="message-circle" class="w-4 h-4"></i>
+          <span>Cotizar Rápido</span>
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenuBtn" aria-label="Abrir menú" class="lg:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-800 focus:outline-none">
+        <i data-lucide="menu" class="w-6 h-6"></i>
+      </button>
+
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-slate-900 border-b border-slate-800 px-6 py-6 space-y-4">
+      <a href="#soluciones" class="block text-slate-200 font-semibold hover:text-yellow-400 text-base">Soluciones de Plaga</a>
+      <a href="#productos" class="block text-slate-200 font-semibold hover:text-yellow-400 text-base">Catálogo de Productos</a>
+      <a href="#ventajas" class="block text-slate-200 font-semibold hover:text-yellow-400 text-base">Tecnología Anti-Escurrimiento</a>
+      <a href="#aplicacion" class="block text-slate-200 font-semibold hover:text-yellow-400 text-base">Modo de Uso y Seguridad</a>
+      <a href="#distribuidores" class="block text-slate-200 font-semibold hover:text-yellow-400 text-base">Venta Mayorista / Ferreterías</a>
+      <a href="#sectores" class="block text-slate-200 font-semibold hover:text-yellow-400 text-base">Sectores de Aplicación</a>
+      <a href="#contacto" class="block text-slate-200 font-semibold hover:text-yellow-400 text-base">Contacto & Cotización</a>
+      <div class="pt-4 border-t border-slate-800 flex flex-col gap-3">
+        <a href="https://wa.me/523310580620" target="_blank" class="w-full text-center py-3 rounded-xl bg-yellow-400 text-slate-950 font-bold text-sm">
+          WhatsApp Ventas: (33) 10 58 0620
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-slate-950 text-white overflow-hidden pt-12 pb-24 lg:pt-20 lg:pb-32">
+    <!-- Ambient Background Gradients -->
+    <div class="absolute inset-0 z-0 opacity-20 pointer-events-none">
+      <div class="absolute top-0 right-1/4 w-96 h-96 bg-yellow-500 rounded-full blur-[140px]"></div>
+      <div class="absolute bottom-10 left-10 w-[500px] h-[500px] bg-amber-600 rounded-full blur-[160px]"></div>
+      <img src="assets/editorial/warehouse.jpg" alt="Almacén Logístico" class="w-full h-full object-cover object-center mix-blend-overlay filter brightness-40" />
+    </div>
+
+    <!-- Hazard industrial accent bar -->
+    <div class="absolute top-0 left-0 right-0 h-1.5 hazard-stripe opacity-90"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left" data-aos="fade-right">
+          
+          <!-- Badges -->
+          <div class="inline-flex flex-wrap items-center justify-center lg:justify-start gap-2">
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-bold bg-yellow-400/20 text-yellow-300 border border-yellow-400/40">
+              <i data-lucide="shield-check" class="w-3.5 h-3.5 mr-1.5 text-yellow-400"></i>
+              100% NO TÓXICO • SIN VENENOS
+            </span>
+            <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+              <i data-lucide="check-circle" class="w-3.5 h-3.5 mr-1.5 text-emerald-400"></i>
+              NO SE CHORREA HASTA 60°C
+            </span>
+          </div>
+
+          <!-- Main Title -->
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black font-heading tracking-tight leading-[1.1] text-white">
+            Máxima Adherencia.<br />
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500">
+              Cero Venenos.
+            </span>
+          </h1>
+
+          <!-- Description -->
+          <p class="text-lg sm:text-xl text-slate-300 max-w-2xl font-normal leading-relaxed">
+            La trampa de pegamento #1 en México con <strong>calidad de exportación</strong>. Diseñada por expertos en control de plagas con tecnología <em>Hot-Melt termoestable</em>: inmoviliza ratas, ratones e insectos de inmediato sin derrames ni químicos nocivos.
+          </p>
+
+          <!-- Core Value Bullet Points -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-left">
+            <div class="flex items-center space-x-3 bg-slate-900/60 border border-slate-800 p-3 rounded-xl backdrop-blur-sm">
+              <div class="w-8 h-8 rounded-lg bg-yellow-400/10 flex items-center justify-center text-yellow-400 shrink-0">
+                <i data-lucide="flame" class="w-4 h-4"></i>
+              </div>
+              <span class="text-xs text-slate-200 font-medium"><strong>Cero escurrimiento:</strong> No gotea ni ensucia pisos con calor.</span>
+            </div>
+            <div class="flex items-center space-x-3 bg-slate-900/60 border border-slate-800 p-3 rounded-xl backdrop-blur-sm">
+              <div class="w-8 h-8 rounded-lg bg-emerald-400/10 flex items-center justify-center text-emerald-400 shrink-0">
+                <i data-lucide="baby" class="w-4 h-4"></i>
+              </div>
+              <span class="text-xs text-slate-200 font-medium"><strong>Seguro para el hogar:</strong> Ideal donde hay niños y mascotas.</span>
+            </div>
+            <div class="flex items-center space-x-3 bg-slate-900/60 border border-slate-800 p-3 rounded-xl backdrop-blur-sm">
+              <div class="w-8 h-8 rounded-lg bg-amber-400/10 flex items-center justify-center text-amber-400 shrink-0">
+                <i data-lucide="utensils" class="w-4 h-4"></i>
+              </div>
+              <span class="text-xs text-slate-200 font-medium"><strong>Apto Restaurantes:</strong> Válido para industria alimentaria & MIP.</span>
+            </div>
+            <div class="flex items-center space-x-3 bg-slate-900/60 border border-slate-800 p-3 rounded-xl backdrop-blur-sm">
+              <div class="w-8 h-8 rounded-lg bg-blue-400/10 flex items-center justify-center text-blue-400 shrink-0">
+                <i data-lucide="truck" class="w-4 h-4"></i>
+              </div>
+              <span class="text-xs text-slate-200 font-medium"><strong>Mayoreo directo:</strong> Entrega a toda la República Mexicana.</span>
+            </div>
+          </div>
+
+          <!-- CTAs -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
+            <a href="#productos" class="w-full sm:w-auto px-8 py-4 rounded-xl text-base font-extrabold text-slate-950 bg-gradient-to-r from-yellow-400 to-amber-400 hover:from-yellow-300 hover:to-amber-300 shadow-xl shadow-yellow-500/25 flex items-center justify-center gap-2 transition hover:-translate-y-1">
+              <i data-lucide="box" class="w-5 h-5"></i>
+              <span>Ver Catálogo 2026</span>
+            </a>
+            <a href="#soluciones" class="w-full sm:w-auto px-8 py-4 rounded-xl text-base font-bold text-white bg-slate-900 hover:bg-slate-800 border border-slate-700 flex items-center justify-center gap-2 transition">
+              <i data-lucide="search" class="w-5 h-5 text-yellow-400"></i>
+              <span>Diagnóstico de Plaga</span>
+            </a>
+          </div>
+
+          <!-- Trust Badges Row -->
+          <div class="pt-6 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-xs text-slate-400 border-t border-slate-800/80">
+            <div class="flex items-center space-x-2">
+              <img src="assets/sello.png" alt="Sello de Calidad" class="h-9 w-auto filter drop-shadow" />
+              <span>Garantía de Calidad Nacional</span>
+            </div>
+            <div class="flex items-center space-x-2">
+              <img src="assets/no-toxico.png" alt="No Tóxico" class="h-9 w-auto filter drop-shadow" />
+              <span>Fórmula No Tóxica</span>
+            </div>
+            <div class="flex items-center space-x-1.5 text-slate-300 font-semibold">
+              <i data-lucide="map-pin" class="w-4 h-4 text-red-500"></i>
+              <span>Hecho en Tlaquepaque, Jal.</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Visual Showcase -->
+        <div class="lg:col-span-5 relative" data-aos="fade-left">
+          
+          <!-- Main Product Display Card -->
+          <div class="relative mx-auto max-w-md bg-gradient-to-b from-slate-900 to-slate-950 border border-slate-800 rounded-3xl p-6 shadow-2xl overflow-hidden group">
+            
+            <!-- Top Product Tag -->
+            <div class="flex items-center justify-between pb-4 border-b border-slate-800/80">
+              <span class="text-xs font-bold text-yellow-400 flex items-center gap-1.5 uppercase tracking-wider">
+                <i data-lucide="star" class="w-3.5 h-3.5 fill-yellow-400"></i> Producto Estrella
+              </span>
+              <span class="text-xs text-slate-400 font-mono">CALIBRE INDUSTRIAL</span>
+            </div>
+
+            <!-- Product Showcase Image -->
+            <div class="relative my-4 p-4 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center min-h-[260px] overflow-hidden">
+              <img src="assets/productos/trampa-grande.jpg" alt="Trampa Grande Pegatón" class="max-h-60 w-auto object-contain transition-transform duration-500 group-hover:scale-105 filter drop-shadow-2xl" />
+              
+              <!-- Floating Hot-Melt Badge -->
+              <div class="absolute bottom-3 left-3 bg-slate-950/90 border border-yellow-400/40 rounded-xl px-3 py-1.5 shadow-lg backdrop-blur-md">
+                <div class="flex items-center space-x-2">
+                  <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                  <span class="text-[11px] font-bold text-white">Charola con 2 Trampas</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Specs Grid -->
+            <div class="space-y-3 pt-2">
+              <h3 class="text-xl font-extrabold text-white font-heading">Pegatón® Trampa Grande</h3>
+              <p class="text-xs text-slate-300 leading-relaxed">
+                Charola engomada de 11.5 × 24.5 cm diseñada para capturar ratas adultas y roedores pesados. Con atrayente natural integrado.
+              </p>
+
+              <!-- Adhesion Power Gauge -->
+              <div class="pt-2">
+                <div class="flex justify-between text-[11px] font-bold mb-1">
+                  <span class="text-slate-400 uppercase">Poder de Retención</span>
+                  <span class="text-yellow-400">99.8% Efectividad</span>
+                </div>
+                <div class="adhesion-meter">
+                  <div class="adhesion-meter-fill"></div>
+                </div>
+              </div>
+
+              <!-- Quick action -->
+              <div class="pt-4 flex items-center gap-2">
+                <button data-product-modal="trampa-grande" class="flex-1 py-2.5 rounded-xl bg-yellow-400 hover:bg-yellow-300 text-slate-950 font-bold text-xs flex items-center justify-center gap-1.5 transition">
+                  <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Ficha Técnica Completa
+                </button>
+                <a href="https://wa.me/523310580620?text=Hola%20Pegat%C3%B3n,%20quiero%20cotizar%20la%20Trampa%20Grande%20por%20caja." target="_blank" class="p-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700">
+                  <i data-lucide="message-circle" class="w-4 h-4 text-emerald-400"></i>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Floating Mascot Accent Badge -->
+          <div class="hidden sm:flex absolute -bottom-6 -left-6 bg-slate-900 border border-slate-700/80 rounded-2xl p-3 shadow-xl items-center space-x-3 backdrop-blur-md animate-float">
+            <img src="assets/raton.png" alt="Mascota Pegatón" class="w-12 h-12 object-contain" />
+            <div>
+              <p class="text-xs font-bold text-yellow-400">¡Cero Escapes!</p>
+              <p class="text-[11px] text-slate-400">Inmoviliza al contacto</p>
+            </div>
+          </div>
+
+          <!-- Floating Quality Seal Badge -->
+          <div class="hidden sm:flex absolute -top-4 -right-4 bg-slate-900 border border-yellow-400/30 rounded-2xl p-3 shadow-xl items-center space-x-2.5 backdrop-blur-md animate-float-delayed">
+            <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-sm">
+              ✓
+            </div>
+            <div>
+              <p class="text-xs font-bold text-white">No Tóxico</p>
+              <p class="text-[10px] text-slate-400">Aprobado uso doméstico</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Live Stats Bar -->
+  <section id="statsSection" class="relative z-20 -mt-8 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="bg-white rounded-2xl shadow-xl border border-slate-200 p-6 sm:p-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div class="border-r border-slate-100 last:border-none">
+        <div class="text-3xl sm:text-4xl font-black text-slate-900 font-heading">
+          +<span class="stat-counter" data-target="15">0</span> Años
+        </div>
+        <p class="text-xs text-slate-500 font-semibold mt-1">Liderazgo en México</p>
+      </div>
+      <div class="border-r border-slate-100 last:border-none">
+        <div class="text-3xl sm:text-4xl font-black text-emerald-600 font-heading">
+          <span class="stat-counter" data-target="100" data-suffix="%">0%</span>
+        </div>
+        <p class="text-xs text-slate-500 font-semibold mt-1">Libre de Venenos Tóxicos</p>
+      </div>
+      <div class="border-r border-slate-100 last:border-none">
+        <div class="text-3xl sm:text-4xl font-black text-amber-500 font-heading">
+          <span class="stat-counter" data-target="60" data-suffix="°C">0°C</span>
+        </div>
+        <p class="text-xs text-slate-500 font-semibold mt-1">Resistencia Anti-Derrame</p>
+      </div>
+      <div>
+        <div class="text-3xl sm:text-4xl font-black text-slate-900 font-heading">
+          +<span class="stat-counter" data-target="5000">0</span>
+        </div>
+        <p class="text-xs text-slate-500 font-semibold mt-1">Puntos de Venta Nacionales</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Pest Diagnostic Assistant -->
+  <section id="soluciones" class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14" data-aos="fade-up">
+        <span class="text-xs font-extrabold uppercase tracking-widest text-amber-600 bg-amber-100 px-3 py-1 rounded-full">
+          Diagnóstico Inteligente
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading mt-3">
+          ¿Qué tipo de plaga necesitas erradicar?
+        </h2>
+        <p class="text-slate-600 mt-3 text-base">
+          Selecciona tu situación actual. Te indicamos la trampa adecuada, por qué funciona y la estrategia de colocación para eliminar la plaga en menos de 48 horas.
+        </p>
+      </div>
+
+      <!-- Tab Buttons for Pests -->
+      <div class="flex flex-wrap justify-center gap-3 mb-10" data-aos="fade-up">
+        <button data-pest="ratas" class="pest-tab-btn active px-5 py-3 rounded-2xl border border-slate-200 bg-white font-bold text-sm text-slate-700 transition flex items-center gap-2">
+          <span>🐀</span> Ratas Grandes (Alcantarilla / Techo)
+        </button>
+        <button data-pest="ratones" class="pest-tab-btn px-5 py-3 rounded-2xl border border-slate-200 bg-white font-bold text-sm text-slate-700 transition flex items-center gap-2">
+          <span>🐁</span> Ratones de Casa / Alacenas
+        </button>
+        <button data-pest="moscas" class="pest-tab-btn px-5 py-3 rounded-2xl border border-slate-200 bg-white font-bold text-sm text-slate-700 transition flex items-center gap-2">
+          <span>🪰</span> Moscas & Insectos Voladores
+        </button>
+        <button data-pest="cucarachas" class="pest-tab-btn px-5 py-3 rounded-2xl border border-slate-200 bg-white font-bold text-sm text-slate-700 transition flex items-center gap-2">
+          <span>🪳</span> Cucarachas & Alacranes
+        </button>
+      </div>
+
+      <!-- Dynamic Solution Panel -->
+      <div class="max-w-5xl mx-auto bg-white rounded-3xl border border-slate-200/80 shadow-xl overflow-hidden p-6 sm:p-10" data-aos="fade-up">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Solution Image & Highlight -->
+          <div class="lg:col-span-5 text-center">
+            <div class="relative bg-slate-100/80 rounded-2xl p-6 border border-slate-200 flex items-center justify-center min-h-[280px]">
+              <img id="pestImg" src="assets/productos/trampa-grande.jpg" alt="Solución Recomendada" class="max-h-64 object-contain filter drop-shadow-md transition-all duration-300" />
+              <div class="absolute top-3 left-3">
+                <span class="text-[10px] font-bold bg-yellow-400 text-slate-950 px-2 py-0.5 rounded shadow">SOLUCIÓN RECOMENDADA</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Solution Diagnostic Specs -->
+          <div class="lg:col-span-7 space-y-4">
+            <div>
+              <span id="pestBadge" class="text-xs font-bold text-red-600 bg-red-50 border border-red-200 px-3 py-1 rounded-full uppercase tracking-wide">
+                Amenaza Severa / Riesgo Sanitario
+              </span>
+              <h3 id="pestTitle" class="text-2xl font-black text-slate-900 font-heading mt-2">
+                Infestación de Ratas de Caño o de Techo
+              </h3>
+              <p id="pestDesc" class="text-sm text-slate-600 mt-2 leading-relaxed">
+                Las ratas adultas tienen gran masa corporal (200g a 500g) y fuerza motriz. Requieren bases indeformables con adhesivo de polímero pesado para evitar que arrastren la trampa.
+              </p>
+            </div>
+
+            <div class="bg-amber-50/70 border border-amber-200/80 rounded-xl p-4">
+              <div class="flex items-center space-x-2 text-amber-900 font-bold text-sm">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-600"></i>
+                <span id="pestSolName">Pegatón Trampa Grande con Doble Charola Reforzada</span>
+              </div>
+              <p id="pestWhy" class="text-xs text-amber-800 mt-1 leading-relaxed">
+                Su fórmula Hot-Melt de máxima tenacidad atrapa las 4 patas instantáneamente. La bandeja plástica rígida no se dobla ante forcejeos.
+              </p>
+            </div>
+
+            <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+              <div class="flex items-center space-x-2 text-slate-800 font-bold text-xs uppercase tracking-wide">
+                <i data-lucide="crosshair" class="w-4 h-4 text-slate-500"></i>
+                <span>Estrategia de Colocación Efectiva:</span>
+              </div>
+              <p id="pestStrategy" class="text-xs text-slate-600 mt-1 leading-relaxed">
+                Colocar cada 3 metros pegada a las paredes. No poner comida aceitosa encima: el cebo viene pre-aromatizado en el adhesivo.
+              </p>
+            </div>
+
+            <div class="pt-2 flex flex-wrap gap-3">
+              <button id="pestActionBtn" class="px-6 py-3 rounded-xl bg-slate-950 hover:bg-slate-800 text-yellow-400 font-bold text-xs flex items-center gap-2 transition">
+                <i data-lucide="file-text" class="w-4 h-4"></i>
+                <span>Ver Medidas y Empaque</span>
+              </button>
+              <a href="https://wa.me/523310580620?text=Hola%20Pegat%C3%B3n,%20tengo%20un%20problema%20de%20plaga%20y%20necesito%20asesor%C3%ADa%20y%20precios." target="_blank" class="px-6 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center gap-2 transition">
+                <i data-lucide="phone-call" class="w-4 h-4"></i>
+                <span>Hablar con Especialista</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Complete Product Catalog Section -->
+  <section id="productos" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-12" data-aos="fade-up">
+        <div>
+          <span class="text-xs font-extrabold uppercase tracking-widest text-amber-600 bg-amber-100 px-3 py-1 rounded-full">
+            Catálogo Oficial 2026
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading mt-3">
+            Línea Completa de Trampas Pegatón®
+          </h2>
+          <p class="text-slate-600 mt-2 max-w-xl text-sm sm:text-base">
+            Fabricadas bajo estrictos controles de calidad con polímeros vírgenes y adhesivo Hot-Melt de grado exportación.
+          </p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="flex flex-wrap gap-2 mt-6 md:mt-0">
+          <button data-filter="all" class="cat-filter-btn active px-4 py-2 rounded-xl text-xs font-bold border border-slate-200 transition">
+            Todos
+          </button>
+          <button data-filter="roedores" class="cat-filter-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">
+            Roedores
+          </button>
+          <button data-filter="voladores" class="cat-filter-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">
+            Moscas & Voladores
+          </button>
+          <button data-filter="rastreros" class="cat-filter-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 transition">
+            Cucarachas & Rastreros
+          </button>
+        </div>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Product 1: Trampa Grande -->
+        <div class="product-card bg-slate-50 border border-slate-200 rounded-3xl p-6 flex flex-col justify-between tilt-card" data-category="roedores" data-aos="fade-up">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-[11px] font-bold text-amber-700 bg-amber-100 px-2.5 py-1 rounded-full uppercase">Roedores Mayores</span>
+              <span class="text-[11px] font-semibold text-slate-400">11.5 × 24.5 cm</span>
+            </div>
+            
+            <div class="product-img-wrapper rounded-2xl p-4 flex items-center justify-center min-h-[220px] mb-5 border border-slate-100">
+              <img src="assets/productos/trampa-grande.jpg" alt="Trampa Grande Pegatón" class="max-h-48 object-contain" />
+            </div>
+
+            <h3 class="text-xl font-black text-slate-900 font-heading">Trampa Grande Pegatón®</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Charola engomada que gracias a su tamaño y base termoformada rígida tiene la facilidad de capturar ratas adultas y roedores pesados.
+            </p>
+
+            <div class="mt-4 pt-4 border-t border-slate-200/80 space-y-1.5 text-xs text-slate-500">
+              <p><strong class="text-slate-800">Contenido:</strong> Caja con 2 trampas.</p>
+              <p><strong class="text-slate-800">Corrugado B2B:</strong> 12 cajas con 2 piezas (24 charolas).</p>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-slate-200 flex items-center gap-2">
+            <button data-product-modal="trampa-grande" class="flex-1 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-yellow-400 font-bold text-xs transition">
+              Ficha & Empaque
+            </button>
+            <a href="https://wa.me/523310580620?text=Cotizar%20Trampa%20Grande%20Pegat%C3%B3n" target="_blank" class="p-2.5 rounded-xl bg-yellow-400 hover:bg-yellow-300 text-slate-950 font-bold text-xs flex items-center gap-1">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 2: Trampa Mediana -->
+        <div class="product-card bg-slate-50 border border-slate-200 rounded-3xl p-6 flex flex-col justify-between tilt-card" data-category="roedores" data-aos="fade-up" data-aos-delay="100">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-[11px] font-bold text-blue-700 bg-blue-100 px-2.5 py-1 rounded-full uppercase">Ratones & Pericotes</span>
+              <span class="text-[11px] font-semibold text-slate-400">13.0 × 9.0 cm</span>
+            </div>
+            
+            <div class="product-img-wrapper rounded-2xl p-4 flex items-center justify-center min-h-[220px] mb-5 border border-slate-100">
+              <img src="assets/productos/trampa-mediana.jpg" alt="Trampa Mediana Pegatón" class="max-h-48 object-contain" />
+            </div>
+
+            <h3 class="text-xl font-black text-slate-900 font-heading">Trampa Mediana Pegatón®</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Charola engomada diseñada especialmente para capturar ratones en alacenas, cocinas, debajo de tarjas y detrás de electrodomésticos.
+            </p>
+
+            <div class="mt-4 pt-4 border-t border-slate-200/80 space-y-1.5 text-xs text-slate-500">
+              <p><strong class="text-slate-800">Contenido:</strong> Caja con 2 trampas.</p>
+              <p><strong class="text-slate-800">Corrugado B2B:</strong> 24 cajas con 2 piezas (48 charolas).</p>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-slate-200 flex items-center gap-2">
+            <button data-product-modal="trampa-mediana" class="flex-1 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-yellow-400 font-bold text-xs transition">
+              Ficha & Empaque
+            </button>
+            <a href="https://wa.me/523310580620?text=Cotizar%20Trampa%20Mediana%20Pegat%C3%B3n" target="_blank" class="p-2.5 rounded-xl bg-yellow-400 hover:bg-yellow-300 text-slate-950 font-bold text-xs flex items-center gap-1">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 3: Trampa Chica -->
+        <div class="product-card bg-slate-50 border border-slate-200 rounded-3xl p-6 flex flex-col justify-between tilt-card" data-category="roedores rastreros" data-aos="fade-up" data-aos-delay="200">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-[11px] font-bold text-emerald-700 bg-emerald-100 px-2.5 py-1 rounded-full uppercase">Económica / Mini</span>
+              <span class="text-[11px] font-semibold text-slate-400">8.0 × 11.0 cm</span>
+            </div>
+            
+            <div class="product-img-wrapper rounded-2xl p-4 flex items-center justify-center min-h-[220px] mb-5 border border-slate-100">
+              <img src="assets/productos/trampa-chica.jpg" alt="Trampa Pequeña Pegatón" class="max-h-48 object-contain" />
+            </div>
+
+            <h3 class="text-xl font-black text-slate-900 font-heading">Trampa Pequeña Pegatón®</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Charola engomada compacta de alta densidad para ratones pequeños, alacranes y arañas en rincones estrechos y plafones.
+            </p>
+
+            <div class="mt-4 pt-4 border-t border-slate-200/80 space-y-1.5 text-xs text-slate-500">
+              <p><strong class="text-slate-800">Contenido:</strong> Caja con 2 trampas.</p>
+              <p><strong class="text-slate-800">Corrugado B2B:</strong> 24 cajas con 2 piezas (48 charolas).</p>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-slate-200 flex items-center gap-2">
+            <button data-product-modal="trampa-chica" class="flex-1 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-yellow-400 font-bold text-xs transition">
+              Ficha & Empaque
+            </button>
+            <a href="https://wa.me/523310580620?text=Cotizar%20Trampa%20Peque%C3%B1a%20Pegat%C3%B3n" target="_blank" class="p-2.5 rounded-xl bg-yellow-400 hover:bg-yellow-300 text-slate-950 font-bold text-xs flex items-center gap-1">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 4: Tira Pegamoscas -->
+        <div class="product-card bg-slate-50 border border-slate-200 rounded-3xl p-6 flex flex-col justify-between tilt-card" data-category="voladores" data-aos="fade-up">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-[11px] font-bold text-yellow-800 bg-yellow-100 px-2.5 py-1 rounded-full uppercase">Voladores Hogar</span>
+              <span class="text-[11px] font-semibold text-slate-400">4 tubos de 5 cm</span>
+            </div>
+            
+            <div class="product-img-wrapper rounded-2xl p-4 flex items-center justify-center min-h-[220px] mb-5 border border-slate-100">
+              <img src="assets/productos/tira-pegamoscas.jpg" alt="Tira Pegamoscas Pegatón" class="max-h-48 object-contain" />
+            </div>
+
+            <h3 class="text-xl font-black text-slate-900 font-heading">Tira Pegamoscas (Ribbon)</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Papel engomado natural con atrayente cromático y de feromona. Despliega hasta 80 cm de cinta adhesiva continua sin pesticidas.
+            </p>
+
+            <div class="mt-4 pt-4 border-t border-slate-200/80 space-y-1.5 text-xs text-slate-500">
+              <p><strong class="text-slate-800">Contenido:</strong> Cajita con 4 tubos con chincheta.</p>
+              <p><strong class="text-slate-800">Exhibidor Punto de Venta:</strong> 24 cajitas de 4 tubos (96 tubos).</p>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-slate-200 flex items-center gap-2">
+            <button data-product-modal="tira-pegamoscas" class="flex-1 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-yellow-400 font-bold text-xs transition">
+              Ficha & Empaque
+            </button>
+            <a href="https://wa.me/523310580620?text=Cotizar%20Tira%20Pegamoscas%20Pegat%C3%B3n" target="_blank" class="p-2.5 rounded-xl bg-yellow-400 hover:bg-yellow-300 text-slate-950 font-bold text-xs flex items-center gap-1">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 5: Tubo Pegamoscas 360 Gigante -->
+        <div class="product-card bg-slate-50 border border-slate-200 rounded-3xl p-6 flex flex-col justify-between tilt-card" data-category="voladores" data-aos="fade-up" data-aos-delay="100">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-[11px] font-bold text-purple-700 bg-purple-100 px-2.5 py-1 rounded-full uppercase">Industrial 360°</span>
+              <span class="text-[11px] font-semibold text-slate-400">30 cm de altura</span>
+            </div>
+            
+            <div class="product-img-wrapper rounded-2xl p-4 flex items-center justify-center min-h-[220px] mb-5 border border-slate-100">
+              <img src="assets/productos/tubo-pegamoscas.jpg" alt="Tubo Pegamoscas Pegatón" class="max-h-48 object-contain" />
+            </div>
+
+            <h3 class="text-xl font-black text-slate-900 font-heading">Tubo Pegamoscas Gigante 360°</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Cilindro adhesivo perimetral con potente atrayente para capturas masivas de moscas en carnicerías, rastros, establos y naves.
+            </p>
+
+            <div class="mt-4 pt-4 border-t border-slate-200/80 space-y-1.5 text-xs text-slate-500">
+              <p><strong class="text-slate-800">Contenido:</strong> Caja con 1 tubo gigante 360°.</p>
+              <p><strong class="text-slate-800">Corrugado B2B:</strong> 24 cajas individuales con 1 tubo.</p>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-slate-200 flex items-center gap-2">
+            <button data-product-modal="tubo-pegamoscas" class="flex-1 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-yellow-400 font-bold text-xs transition">
+              Ficha & Empaque
+            </button>
+            <a href="https://wa.me/523310580620?text=Cotizar%20Tubo%20Pegamoscas%20Gigante%20Pegat%C3%B3n" target="_blank" class="p-2.5 rounded-xl bg-yellow-400 hover:bg-yellow-300 text-slate-950 font-bold text-xs flex items-center gap-1">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Product 6: Pega Cucarachas -->
+        <div class="product-card bg-slate-50 border border-slate-200 rounded-3xl p-6 flex flex-col justify-between tilt-card" data-category="rastreros" data-aos="fade-up" data-aos-delay="200">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-[11px] font-bold text-rose-700 bg-rose-100 px-2.5 py-1 rounded-full uppercase">Rastreros & Alacranes</span>
+              <span class="text-[11px] font-semibold text-slate-400">Caseta Plegable</span>
+            </div>
+            
+            <div class="product-img-wrapper rounded-2xl p-4 flex items-center justify-center min-h-[220px] mb-5 border border-slate-100">
+              <img src="assets/productos/pega-cucarachas.jpg" alt="Pega Cucarachas Pegatón" class="max-h-48 object-contain" />
+            </div>
+
+            <h3 class="text-xl font-black text-slate-900 font-heading">Trampa Pega-Cucarachas</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Caseta plegable con pastilla concentrada de feromonas para cucarachas, grillos, alacranes y ciempiés. Oculta la plaga capturada.
+            </p>
+
+            <div class="mt-4 pt-4 border-t border-slate-200/80 space-y-1.5 text-xs text-slate-500">
+              <p><strong class="text-slate-800">Contenido:</strong> Caja exhibidora de mostrador con 24 trampas.</p>
+              <p><strong class="text-slate-800">Corrugado B2B:</strong> 24 exhibidores (576 trampas totales).</p>
+            </div>
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-slate-200 flex items-center gap-2">
+            <button data-product-modal="pega-cucarachas" class="flex-1 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-yellow-400 font-bold text-xs transition">
+              Ficha & Empaque
+            </button>
+            <a href="https://wa.me/523310580620?text=Cotizar%20Pega%20Cucarachas%20Pegat%C3%B3n" target="_blank" class="p-2.5 rounded-xl bg-yellow-400 hover:bg-yellow-300 text-slate-950 font-bold text-xs flex items-center gap-1">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Competitive Comparison: Pegatón vs Competencia -->
+  <section id="ventajas" class="py-20 bg-slate-900 text-white relative overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+        <span class="text-xs font-extrabold uppercase tracking-widest text-yellow-400 bg-yellow-400/10 px-3 py-1 rounded-full border border-yellow-400/30">
+          Tecnología de Polímeros
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black font-heading text-white mt-3">
+          ¿Por qué Pegatón® supera a la competencia?
+        </h2>
+        <p class="text-slate-400 mt-3 text-sm sm:text-base">
+          Analizamos las fallas más comunes de otras marcas (Catch A Max, Killmax, Cazafácil o genéricas importadas) para ofrecerte la trampa más confiable del mercado.
+        </p>
+      </div>
+
+      <!-- Comparison Matrix Table -->
+      <div class="max-w-4xl mx-auto bg-slate-950 rounded-3xl border border-slate-800 shadow-2xl overflow-hidden" data-aos="fade-up">
+        <div class="grid grid-cols-12 bg-slate-900/90 text-xs font-bold uppercase tracking-wider py-4 px-6 border-b border-slate-800 text-slate-400">
+          <div class="col-span-5 sm:col-span-4">Característica Clave</div>
+          <div class="col-span-4 sm:col-span-4 text-center text-yellow-400 font-extrabold flex items-center justify-center gap-1">
+            <span class="w-2 h-2 rounded-full bg-yellow-400"></span> PEGATÓN®
+          </div>
+          <div class="col-span-3 sm:col-span-4 text-center text-slate-500">Otras Marcas / Genéricas</div>
+        </div>
+
+        <!-- Row 1 -->
+        <div class="grid grid-cols-12 py-5 px-6 border-b border-slate-800/60 items-center text-sm hover:bg-slate-900/40 transition">
+          <div class="col-span-5 sm:col-span-4 font-semibold text-slate-200">
+            Resistencia Térmica (No se chorrea)
+            <span class="block text-xs font-normal text-slate-400">En climas cálidos y cocinas</span>
+          </div>
+          <div class="col-span-4 sm:col-span-4 text-center">
+            <span class="inline-flex items-center text-emerald-400 font-bold text-xs bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">
+              ✓ Estable hasta 60°C
+            </span>
+          </div>
+          <div class="col-span-3 sm:col-span-4 text-center text-xs text-red-400 font-medium">
+            ✕ Se derrite y mancha pisos
+          </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="grid grid-cols-12 py-5 px-6 border-b border-slate-800/60 items-center text-sm hover:bg-slate-900/40 transition">
+          <div class="col-span-5 sm:col-span-4 font-semibold text-slate-200">
+            Fuerza de Retención Mecánica
+            <span class="block text-xs font-normal text-slate-400">Para ratas pesadas de cañería</span>
+          </div>
+          <div class="col-span-4 sm:col-span-4 text-center">
+            <span class="inline-flex items-center text-yellow-400 font-bold text-xs bg-yellow-500/10 px-3 py-1 rounded-full border border-yellow-500/20">
+              ✓ Charola rígida anti-palanca
+            </span>
+          </div>
+          <div class="col-span-3 sm:col-span-4 text-center text-xs text-red-400 font-medium">
+            ✕ Cartón blando que se dobla
+          </div>
+        </div>
+
+        <!-- Row 3 -->
+        <div class="grid grid-cols-12 py-5 px-6 border-b border-slate-800/60 items-center text-sm hover:bg-slate-900/40 transition">
+          <div class="col-span-5 sm:col-span-4 font-semibold text-slate-200">
+            Composición Toxicológica
+            <span class="block text-xs font-normal text-slate-400">Seguridad familiar & mascotas</span>
+          </div>
+          <div class="col-span-4 sm:col-span-4 text-center">
+            <span class="inline-flex items-center text-emerald-400 font-bold text-xs bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">
+              ✓ 100% No Tóxico / Sin Venenos
+            </span>
+          </div>
+          <div class="col-span-3 sm:col-span-4 text-center text-xs text-slate-400">
+            Variable / Algunos con pesticidas
+          </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="grid grid-cols-12 py-5 px-6 border-b border-slate-800/60 items-center text-sm hover:bg-slate-900/40 transition">
+          <div class="col-span-5 sm:col-span-4 font-semibold text-slate-200">
+            Liberación Accidental Segura
+            <span class="block text-xs font-normal text-slate-400">En caso de roce con perros o niños</span>
+          </div>
+          <div class="col-span-4 sm:col-span-4 text-center">
+            <span class="inline-flex items-center text-emerald-400 font-bold text-xs bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">
+              ✓ Se retira fácil con aceite vegetal
+            </span>
+          </div>
+          <div class="col-span-3 sm:col-span-4 text-center text-xs text-red-400 font-medium">
+            ✕ Requiere solventes químicos
+          </div>
+        </div>
+
+        <!-- Row 5 -->
+        <div class="grid grid-cols-12 py-5 px-6 items-center text-sm hover:bg-slate-900/40 transition">
+          <div class="col-span-5 sm:col-span-4 font-semibold text-slate-200">
+            Origen y Soporte Comercial
+            <span class="block text-xs font-normal text-slate-400">Disponibilidad de stock</span>
+          </div>
+          <div class="col-span-4 sm:col-span-4 text-center">
+            <span class="inline-flex items-center text-yellow-400 font-bold text-xs bg-yellow-500/10 px-3 py-1 rounded-full border border-yellow-500/20">
+              🇲🇽 Hecho en México / Stock Inmediato
+            </span>
+          </div>
+          <div class="col-span-3 sm:col-span-4 text-center text-xs text-slate-400">
+            Importadas / Tiempos lentos
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Usage, Placement & Safety Guide -->
+  <section id="aplicacion" class="py-20 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+        <span class="text-xs font-extrabold uppercase tracking-widest text-amber-600 bg-amber-100 px-3 py-1 rounded-full">
+          Guía de Uso Profesional
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading mt-3">
+          Instrucciones de Aplicación & Precauciones
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base">
+          Aprende el protocolo exacto para maximizar capturas en 24 horas y los pasos de seguridad en caso de contacto accidental.
+        </p>
+      </div>
+
+      <!-- 3 Steps Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+        
+        <!-- Step 1 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-lg relative" data-aos="fade-up">
+          <div class="step-number-circle bg-yellow-400 text-slate-950 mb-6 shadow-md">
+            1
+          </div>
+          <h3 class="text-xl font-black text-slate-900 font-heading">Separar Charolas</h3>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            Saque las trampas de la caja y separe ambas charolas tirando firmemente de las esquinas plásticas sin tocar la superficie engomada.
+          </p>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center text-xs text-amber-700 font-semibold">
+            <i data-lucide="info" class="w-4 h-4 mr-1.5 shrink-0"></i>
+            <span>No requiere colocar queso ni cebo extra; ya contiene atrayente.</span>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-lg relative" data-aos="fade-up" data-aos-delay="100">
+          <div class="step-number-circle bg-slate-900 text-yellow-400 mb-6 shadow-md">
+            2
+          </div>
+          <h3 class="text-xl font-black text-slate-900 font-heading">Colocar en Senderos</h3>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            Ubique las charolas con el pegamento hacia arriba, completamente pegadas a las paredes y zoclos donde haya detectado movimiento o excrementos.
+          </p>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center text-xs text-slate-600 font-semibold">
+            <i data-lucide="info" class="w-4 h-4 mr-1.5 shrink-0"></i>
+            <span>Los roedores son ciegos periféricos: siempre caminan tocando el muro.</span>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="bg-white rounded-3xl p-8 border border-slate-200 shadow-lg relative" data-aos="fade-up" data-aos-delay="200">
+          <div class="step-number-circle bg-emerald-600 text-white mb-6 shadow-md">
+            3
+          </div>
+          <h3 class="text-xl font-black text-slate-900 font-heading">Desecho Higiénico</h3>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            Una vez atrapado el roedor o los insectos, tome la trampa por el borde plástico exterior y deposítela directamente en la bolsa de basura.
+          </p>
+          <div class="mt-4 pt-4 border-t border-slate-100 flex items-center text-xs text-emerald-700 font-semibold">
+            <i data-lucide="info" class="w-4 h-4 mr-1.5 shrink-0"></i>
+            <span>Cero contacto manual con la plaga. Charola desechable 100% higiénica.</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Recommendations & Emergency Protocols Card -->
+      <div class="bg-white rounded-3xl border border-slate-200 p-8 shadow-xl" data-aos="fade-up">
+        <h3 class="text-2xl font-black text-slate-900 font-heading mb-6 flex items-center gap-2">
+          <i data-lucide="shield-alert" class="w-6 h-6 text-amber-500"></i>
+          Protocolo de Seguridad y Recomendaciones Pegatón®
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          
+          <div class="bg-slate-50 p-5 rounded-2xl border border-slate-200">
+            <div class="flex items-center space-x-2 text-slate-900 font-bold text-sm mb-2">
+              <span class="w-6 h-6 rounded-full bg-yellow-400 text-slate-950 flex items-center justify-center text-xs font-black">A</span>
+              <h4>Liberación Accidental de Mascotas</h4>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Si un perro o gato roza accidentalmente la trampa, <strong>no tire con fuerza</strong>. Aplique suavemente <strong>aceite de cocina vegetal o aceite para bebé</strong> sobre el pelaje y la trampa se desprenderá de forma inmediata e inocua.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 p-5 rounded-2xl border border-slate-200">
+            <div class="flex items-center space-x-2 text-slate-900 font-bold text-sm mb-2">
+              <span class="w-6 h-6 rounded-full bg-yellow-400 text-slate-950 flex items-center justify-center text-xs font-black">B</span>
+              <h4>Limpieza de Pisos o Manos</h4>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              En caso de contacto en losas, pisos laminados o piel, el adhesivo se remueve limpiamente usando un paño humedecido con aceite vegetal o un poco de alcohol. No deja manchas corrosivas.
+            </p>
+          </div>
+
+          <div class="bg-slate-50 p-5 rounded-2xl border border-slate-200">
+            <div class="flex items-center space-x-2 text-slate-900 font-bold text-sm mb-2">
+              <span class="w-6 h-6 rounded-full bg-yellow-400 text-slate-950 flex items-center justify-center text-xs font-black">C</span>
+              <h4>¿Qué pasa si la trampa se moja?</h4>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              Si la trampa se llega a mojar con agua accidental, el pegamento perderá temporalmente adherencia. <strong>Simplemente déjela secar al aire libre</strong> y recuperará su efecto adhesivo al 100%.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- B2B Distributors & Hardware Store ROI Calculator Section -->
+  <section id="distribuidores" class="py-20 bg-slate-950 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Commercial Offer -->
+        <div class="lg:col-span-6 space-y-6" data-aos="fade-right">
+          <span class="text-xs font-extrabold uppercase tracking-widest text-yellow-400 bg-yellow-400/10 px-3 py-1 rounded-full border border-yellow-400/30">
+            Canal Ferretero & Distribución Mayorista
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-black font-heading text-white">
+            Maximiza el Margen de tu Negocio con Pegatón®
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            Pegatón es uno de los productos de mayor rotación en mostrador para ferreterías, tlapalerías, empresas de control de plagas y cadenas de autoservicio en México.
+          </p>
+
+          <div class="space-y-4 pt-2">
+            <div class="flex items-start space-x-3">
+              <div class="w-8 h-8 rounded-xl bg-yellow-400/10 border border-yellow-400/30 flex items-center justify-center text-yellow-400 shrink-0 mt-0.5">
+                <i data-lucide="trending-up" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Márgenes de 35% a 55% de Ganancia</h4>
+                <p class="text-xs text-slate-400">Precios directos de fábrica por corrugado sin intermediarios costosos.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <div class="w-8 h-8 rounded-xl bg-yellow-400/10 border border-yellow-400/30 flex items-center justify-center text-yellow-400 shrink-0 mt-0.5">
+                <i data-lucide="store" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Material Punto de Venta Incluido</h4>
+                <p class="text-xs text-slate-400">Exhibidores de mostrador para Tiras y Cucarachas, afiches publicitarios y displays llamativos.</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3">
+              <div class="w-8 h-8 rounded-xl bg-yellow-400/10 border border-yellow-400/30 flex items-center justify-center text-yellow-400 shrink-0 mt-0.5">
+                <i data-lucide="truck" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-white">Envíos Consolidados a Todo México</h4>
+                <p class="text-xs text-slate-400">Alianzas logísticas con entrega rápida en las 32 entidades federativas.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-4 flex items-center gap-4 text-xs text-slate-400">
+            <span class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Facturación CFDI</span>
+            <span class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Fichas Técnicas Oficiales</span>
+            <span class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-emerald-400"></i> Stock Permanente</span>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Margin Calculator -->
+        <div class="lg:col-span-6" data-aos="fade-left">
+          <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl relative overflow-hidden">
+            <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+              <h3 class="text-lg font-bold text-white font-heading flex items-center gap-2">
+                <i data-lucide="calculator" class="w-5 h-5 text-yellow-400"></i>
+                Calculadora de Inversión y Margen B2B
+              </h3>
+              <span id="calcMarginBadge" class="text-xs font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-3 py-1 rounded-full">
+                45% Margen Estimado
+              </span>
+            </div>
+
+            <!-- Controls -->
+            <div class="space-y-6 pt-6">
+              
+              <!-- Business type select -->
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 mb-2">Tipo de Comercio o Perfil:</label>
+                <select id="calcBusinessType" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-yellow-400">
+                  <option value="ferreteria">Ferretería / Tlapalería de Barrio</option>
+                  <option value="distribuidor">Mayorista Ferretero / Distribuidora</option>
+                  <option value="fumigador">Empresa Profesional de Fumigación y MIP</option>
+                  <option value="autoservicio">Cadena de Abarrotes o Autoservicio</option>
+                </select>
+              </div>
+
+              <!-- Box slider -->
+              <div>
+                <div class="flex justify-between items-center text-xs font-semibold text-slate-300 mb-2">
+                  <span>Volumen de Pedido Sugerido:</span>
+                  <span id="calcBoxesDisplay" class="text-yellow-400 font-bold text-sm">12 cajas corrugadas</span>
+                </div>
+                <input id="calcBoxes" type="range" min="3" max="100" value="12" step="1" class="w-full h-2 bg-slate-950 rounded-lg appearance-none cursor-pointer accent-yellow-400" />
+                <div class="flex justify-between text-[10px] text-slate-500 mt-1">
+                  <span>3 cajas (Mínimo)</span>
+                  <span>25 cajas (-8% desc)</span>
+                  <span>50 cajas (-14% desc)</span>
+                  <span>100+ cajas (-20% desc)</span>
+                </div>
+              </div>
+
+              <!-- ROI Metric Results -->
+              <div class="grid grid-cols-2 gap-4 pt-4 border-t border-slate-800">
+                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
+                  <span class="text-[11px] text-slate-400 block">Costo Neto Unitario:</span>
+                  <span id="calcUnitCost" class="text-lg font-black text-white font-mono">$24.50 MXN</span>
+                </div>
+                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
+                  <span class="text-[11px] text-slate-400 block">Precio Público Sugerido:</span>
+                  <span id="calcSuggestedPVP" class="text-lg font-black text-yellow-400 font-mono">$38.00 MXN</span>
+                </div>
+                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
+                  <span class="text-[11px] text-slate-400 block">Inversión Total Estimada:</span>
+                  <span id="calcTotalInv" class="text-lg font-black text-slate-300 font-mono">$3,528 MXN</span>
+                </div>
+                <div class="bg-slate-950 p-4 rounded-2xl border border-emerald-500/30 bg-emerald-500/5">
+                  <span class="text-[11px] text-emerald-400 block font-semibold">Ganancia Bruta Estimada:</span>
+                  <span id="calcTotalProfit" class="text-lg font-black text-emerald-400 font-mono">+$1,944 MXN</span>
+                </div>
+              </div>
+
+              <!-- Button to request formal quote -->
+              <button id="calcWhatsAppBtn" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-yellow-400 to-amber-400 hover:from-yellow-300 hover:to-amber-300 text-slate-950 font-black text-sm flex items-center justify-center gap-2 shadow-lg shadow-yellow-400/20 transition">
+                <i data-lucide="file-check" class="w-4 h-4"></i>
+                <span>Solicitar Lista de Precios Oficial Mayorista</span>
+              </button>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Sectors & Applications Gallery -->
+  <section id="sectores" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14" data-aos="fade-up">
+        <span class="text-xs font-extrabold uppercase tracking-widest text-amber-600 bg-amber-100 px-3 py-1 rounded-full">
+          Versatilidad de Uso
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading mt-3">
+          Sectores donde Pegatón® es Indispensable
+        </h2>
+        <p class="text-slate-600 mt-2 text-sm sm:text-base">
+          Al no contener venenos volátiles ni polvos tóxicos, nuestras trampas son la elección predilecta para entornos de alta exigencia sanitaria.
+        </p>
+      </div>
+
+      <!-- Gallery Grid with Real Contextual Photos -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Sector 1 -->
+        <div class="group relative rounded-3xl overflow-hidden shadow-lg border border-slate-200 aspect-[4/5] bg-slate-900" data-aos="fade-up">
+          <img src="assets/editorial/clean-kitchen.jpg" alt="Restaurantes y Cocinas" class="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500 filter brightness-75" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-6 flex flex-col justify-end">
+            <span class="text-[10px] font-bold text-yellow-400 bg-yellow-400/20 px-2.5 py-1 rounded-full w-max mb-2">HACCP / SALUD</span>
+            <h3 class="text-xl font-bold text-white font-heading">Restaurantes & Bares</h3>
+            <p class="text-xs text-slate-300 mt-1 leading-relaxed">
+              Cumple con inspecciones de salubridad al eliminar roedores y moscas sin riesgo de contaminar vajillas o alimentos.
+            </p>
+          </div>
+        </div>
+
+        <!-- Sector 2 -->
+        <div class="group relative rounded-3xl overflow-hidden shadow-lg border border-slate-200 aspect-[4/5] bg-slate-900" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/editorial/warehouse.jpg" alt="Bodegas y Almacenes" class="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500 filter brightness-75" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-6 flex flex-col justify-end">
+            <span class="text-[10px] font-bold text-yellow-400 bg-yellow-400/20 px-2.5 py-1 rounded-full w-max mb-2">LOGÍSTICA</span>
+            <h3 class="text-xl font-bold text-white font-heading">Bodegas & CEDIS</h3>
+            <p class="text-xs text-slate-300 mt-1 leading-relaxed">
+              Protección perimetral continua de pallets de cartón, mercancía seca y grano contra invasiones de ratas de tejado.
+            </p>
+          </div>
+        </div>
+
+        <!-- Sector 3 -->
+        <div class="group relative rounded-3xl overflow-hidden shadow-lg border border-slate-200 aspect-[4/5] bg-slate-900" data-aos="fade-up" data-aos-delay="200">
+          <img src="assets/editorial/family-home.jpg" alt="Hogares y Familias" class="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500 filter brightness-75" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-6 flex flex-col justify-end">
+            <span class="text-[10px] font-bold text-emerald-400 bg-emerald-500/20 px-2.5 py-1 rounded-full w-max mb-2">HOGAR FAMILIAR</span>
+            <h3 class="text-xl font-bold text-white font-heading">Hogares con Mascotas</h3>
+            <p class="text-xs text-slate-300 mt-1 leading-relaxed">
+              Paz mental total. Cero venenos en polvo o cebos que puedan ser ingeridos accidentalmente por perros, gatos o niños pequeños.
+            </p>
+          </div>
+        </div>
+
+        <!-- Sector 4 -->
+        <div class="group relative rounded-3xl overflow-hidden shadow-lg border border-slate-200 aspect-[4/5] bg-slate-900" data-aos="fade-up" data-aos-delay="300">
+          <img src="assets/editorial/hardware-store.jpg" alt="Ferreterías y Retail" class="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-500 filter brightness-75" />
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent p-6 flex flex-col justify-end">
+            <span class="text-[10px] font-bold text-yellow-400 bg-yellow-400/20 px-2.5 py-1 rounded-full w-max mb-2">RETAIL</span>
+            <h3 class="text-xl font-bold text-white font-heading">Ferreterías de Barrio</h3>
+            <p class="text-xs text-slate-300 mt-1 leading-relaxed">
+              El producto estrella de mostrador. Gran rotación durante todo el año, especialmente en temporadas de lluvia y calor.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive FAQ Accordion -->
+  <section class="py-20 bg-slate-50 border-t border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center mb-12" data-aos="fade-up">
+        <span class="text-xs font-extrabold uppercase tracking-widest text-amber-600 bg-amber-100 px-3 py-1 rounded-full">
+          Preguntas Frecuentes
+        </span>
+        <h2 class="text-3xl font-black text-slate-900 font-heading mt-3">
+          Todo lo que necesitas saber sobre Pegatón®
+        </h2>
+      </div>
+
+      <div class="space-y-4" data-aos="fade-up">
+        
+        <details class="group bg-white rounded-2xl border border-slate-200 p-6 shadow-sm [&_summary::-webkit-details-marker]:hidden cursor-pointer" open>
+          <summary class="flex items-center justify-between font-bold text-slate-900 text-base">
+            <span>¿Por qué las trampas Pegatón NO se chorrean con el calor?</span>
+            <span class="transition duration-300 group-open:-rotate-180 text-amber-500">▼</span>
+          </summary>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            Pegatón utiliza una resina adhesiva Hot-Melt polimérica de alto punto de reblandecimiento térmico, formulada específicamente para resistir temperaturas de hasta 60°C. A diferencia de trampas de bajo costo que se licúan y escurren manchando pisos, la película de Pegatón se mantiene densa, cohesiva y 100% activa.
+          </p>
+        </details>
+
+        <details class="group bg-white rounded-2xl border border-slate-200 p-6 shadow-sm [&_summary::-webkit-details-marker]:hidden cursor-pointer">
+          <summary class="flex items-center justify-between font-bold text-slate-900 text-base">
+            <span>¿Es necesario ponerle comida o cebo en el centro?</span>
+            <span class="transition duration-300 group-open:-rotate-180 text-amber-500">▼</span>
+          </summary>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            No es estrictamente necesario. Las trampas Pegatón vienen de fábrica con un aroma atrayente integrado en la misma fórmula adhesiva. Si desea colocar algún cebo, use solo alimentos secos (como una pasa o nuez); <strong>nunca coloque alimentos aceitosos o manteca</strong>, ya que los aceites disuelven el pegamento.
+          </p>
+        </details>
+
+        <details class="group bg-white rounded-2xl border border-slate-200 p-6 shadow-sm [&_summary::-webkit-details-marker]:hidden cursor-pointer">
+          <summary class="flex items-center justify-between font-bold text-slate-900 text-base">
+            <span>¿Qué hacer si un perro o gato pisa la trampa?</span>
+            <span class="transition duration-300 group-open:-rotate-180 text-amber-500">▼</span>
+          </summary>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            No intente jalar la trampa con fuerza porque lastimará a la mascota. Nuestro adhesivo no contiene tóxicos y se disuelve con aceite vegetal de cocina, aceite de bebé o vaselina líquida. Frote suavemente la zona afectada y la trampa se desprenderá de inmediato. Posteriormente lave la zona con champú para mascotas o agua tibia y jabón.
+          </p>
+        </details>
+
+        <details class="group bg-white rounded-2xl border border-slate-200 p-6 shadow-sm [&_summary::-webkit-details-marker]:hidden cursor-pointer">
+          <summary class="flex items-center justify-between font-bold text-slate-900 text-base">
+            <span>¿Cuál es el pedido mínimo para obtener precio de mayoreo ferretero?</span>
+            <span class="transition duration-300 group-open:-rotate-180 text-amber-500">▼</span>
+          </summary>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            Atendemos desde 3 cajas corrugadas máster combinadas con precios de distribuidor. Para pedidos superiores a 25 y 50 cajas ofrecemos descuentos escalonados por volumen y facilidades de flete consolidado a cualquier estado de México.
+          </p>
+        </details>
+
+        <details class="group bg-white rounded-2xl border border-slate-200 p-6 shadow-sm [&_summary::-webkit-details-marker]:hidden cursor-pointer">
+          <summary class="flex items-center justify-between font-bold text-slate-900 text-base">
+            <span>¿Cuánto tiempo dura el pegamento una vez colocada la trampa?</span>
+            <span class="transition duration-300 group-open:-rotate-180 text-amber-500">▼</span>
+          </summary>
+          <p class="text-sm text-slate-600 mt-3 leading-relaxed">
+            En interiores normales sin exceso de polvo industrial, la trampa permanece activa hasta por 6 meses o hasta que su superficie quede saturada de capturas o polvo.
+          </p>
+        </details>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Contact & Quick Quote Form Section -->
+  <section id="contacto" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-gradient-to-br from-slate-950 to-slate-900 rounded-3xl p-8 sm:p-14 border border-slate-800 text-white shadow-2xl relative overflow-hidden">
+        
+        <!-- Decorative background circle -->
+        <div class="absolute -right-20 -bottom-20 w-80 h-80 bg-yellow-400/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 relative z-10">
+          
+          <!-- Contact Info -->
+          <div class="lg:col-span-5 space-y-6">
+            <span class="text-xs font-extrabold uppercase tracking-widest text-yellow-400 bg-yellow-400/10 px-3 py-1 rounded-full border border-yellow-400/30">
+              Atención Directa de Fábrica
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-black font-heading text-white">
+              Cotiza o solicita distribución hoy mismo
+            </h2>
+            <p class="text-slate-300 text-sm leading-relaxed">
+              Ponte en contacto con nuestro equipo comercial en Jalisco. Te responderemos a la brevedad con fichas técnicas y lista oficial de precios.
+            </p>
+
+            <div class="space-y-4 pt-4 border-t border-slate-800">
+              
+              <div class="flex items-start space-x-3.5">
+                <div class="w-10 h-10 rounded-xl bg-yellow-400 text-slate-950 flex items-center justify-center shrink-0 font-bold shadow-md">
+                  <i data-lucide="map-pin" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-white">Pegatón S.A. de C.V.</h4>
+                  <p class="text-xs text-slate-300">Av. 8 de Julio No 412, Col. Guayabitos</p>
+                  <p class="text-xs text-slate-400">Tlaquepaque, Jalisco, México C.P. 45530</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-3.5">
+                <div class="w-10 h-10 rounded-xl bg-slate-800 text-yellow-400 border border-slate-700 flex items-center justify-center shrink-0 font-bold">
+                  <i data-lucide="phone" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-white">Teléfono de Oficina</h4>
+                  <a href="tel:3310580620" class="text-xs text-yellow-400 font-bold hover:underline">(33) 10 58 0620</a>
+                  <p class="text-[11px] text-slate-400">Lunes a Viernes de 8:30 a 18:00 hrs</p>
+                </div>
+              </div>
+
+              <div class="flex items-start space-x-3.5">
+                <div class="w-10 h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0 font-bold shadow-md">
+                  <i data-lucide="message-circle" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <h4 class="text-sm font-bold text-white">WhatsApp Comercial</h4>
+                  <a href="https://wa.me/523310580620" target="_blank" class="text-xs text-emerald-400 font-bold hover:underline">+52 (33) 10 58 0620</a>
+                  <p class="text-[11px] text-slate-400">Respuesta rápida y cotizaciones en PDF</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Interactive Quote Form -->
+          <div class="lg:col-span-7">
+            <form id="contactQuoteForm" class="bg-slate-900/90 border border-slate-700/80 rounded-2xl p-6 sm:p-8 space-y-4 shadow-xl">
+              
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-300 mb-1">Nombre Completo *</label>
+                  <input type="text" name="name" required placeholder="Ej. Carlos Martínez" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-yellow-400" />
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-300 mb-1">Teléfono / WhatsApp *</label>
+                  <input type="tel" name="phone" required placeholder="Ej. 33 1234 5678" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-yellow-400" />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-300 mb-1">Correo Electrónico</label>
+                  <input type="email" name="email" placeholder="carlos@empresa.com" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-yellow-400" />
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-300 mb-1">Ciudad / Estado</label>
+                  <input type="text" name="city" placeholder="Ej. Monterrey, N.L." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-yellow-400" />
+                </div>
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-300 mb-1">Perfil de Cliente</label>
+                  <select name="clientType" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-yellow-400">
+                    <option value="Ferretería / Tlapalería">Ferretería / Tlapalería</option>
+                    <option value="Distribuidor Mayorista">Distribuidor Mayorista</option>
+                    <option value="Empresa Control de Plagas">Control de Plagas (Fumigador)</option>
+                    <option value="Industria Alimentaria">Industria / Restaurante</option>
+                    <option value="Consumidor Particular">Consumidor Particular</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-300 mb-1">Producto de Interés</label>
+                  <select name="product" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:border-yellow-400">
+                    <option value="Línea Completa de Trampas">Línea Completa Pegatón®</option>
+                    <option value="Trampa Grande (Ratas)">Trampa Grande (Ratas)</option>
+                    <option value="Trampa Mediana (Ratones)">Trampa Mediana (Ratones)</option>
+                    <option value="Tiras y Tubos Pegamoscas">Tiras y Tubos Pegamoscas</option>
+                    <option value="Pega Cucarachas">Pega Cucarachas</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 mb-1">Mensaje o Volumen Requerido</label>
+                <textarea name="message" rows="3" placeholder="Indícanos cuántas cajas requieres o tus dudas comerciales..." class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-yellow-400"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-yellow-400 to-amber-400 hover:from-yellow-300 hover:to-amber-300 text-slate-950 font-black text-sm flex items-center justify-center gap-2 shadow-lg shadow-yellow-400/20 transition cursor-pointer">
+                <i data-lucide="send" class="w-4 h-4"></i>
+                <span>Enviar y Cotizar por WhatsApp Inmediato</span>
+              </button>
+
+              <p class="text-[11px] text-center text-slate-400">
+                🔒 Tus datos se tratan con estricta confidencialidad para fines exclusivos de cotización.
+              </p>
+
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-white border-t border-slate-800/80 pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 pb-12 border-b border-slate-800">
+        
+        <!-- Col 1: Brand Info -->
+        <div class="lg:col-span-2 space-y-4">
+          <div class="flex items-center space-x-3">
+            <div class="bg-white p-1 rounded-lg">
+              <img src="assets/logo.png" alt="Pegatón" class="h-8 w-auto" />
+            </div>
+            <span class="text-xl font-black font-heading text-white">PEGATÓN<span class="text-yellow-400">®</span></span>
+          </div>
+          <p class="text-xs text-slate-400 max-w-sm leading-relaxed">
+            La primera trampa de pegamento fabricada en México con calidad de exportación. Fórmula patentada anti-escurrimiento térmico de grado profesional.
+          </p>
+          <div class="flex items-center space-x-3 text-slate-400 text-xs">
+            <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-full">100% No Tóxico</span>
+            <span class="bg-slate-900 border border-slate-800 px-3 py-1 rounded-full">Hecho en México</span>
+          </div>
+        </div>
+
+        <!-- Col 2: Productos -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-yellow-400 mb-3">Productos</h4>
+          <ul class="space-y-2 text-xs text-slate-300">
+            <li><a href="#productos" class="hover:text-yellow-400 transition">Trampa Grande (Ratas)</a></li>
+            <li><a href="#productos" class="hover:text-yellow-400 transition">Trampa Mediana (Ratones)</a></li>
+            <li><a href="#productos" class="hover:text-yellow-400 transition">Trampa Pequeña</a></li>
+            <li><a href="#productos" class="hover:text-yellow-400 transition">Tira Pegamoscas 4 tubos</a></li>
+            <li><a href="#productos" class="hover:text-yellow-400 transition">Tubo Gigante 360°</a></li>
+            <li><a href="#productos" class="hover:text-yellow-400 transition">Trampa Pega-Cucarachas</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Enlaces -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-yellow-400 mb-3">Navegación</h4>
+          <ul class="space-y-2 text-xs text-slate-300">
+            <li><a href="#soluciones" class="hover:text-yellow-400 transition">Diagnóstico de Plagas</a></li>
+            <li><a href="#ventajas" class="hover:text-yellow-400 transition">Pegatón vs Competencia</a></li>
+            <li><a href="#aplicacion" class="hover:text-yellow-400 transition">Guía de Seguridad</a></li>
+            <li><a href="#distribuidores" class="hover:text-yellow-400 transition">Precios de Mayoreo</a></li>
+            <li><a href="#sectores" class="hover:text-yellow-400 transition">Sectores e Industrias</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Fábrica & Planta -->
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-yellow-400 mb-3">Planta & Ventas</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Av. 8 de Julio No 412<br />
+            Col. Guayabitos, Tlaquepaque, Jal.<br />
+            C.P. 45530 México<br />
+            <strong class="text-white mt-2 block">Tel: (33) 10 58 0620</strong>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>© 2026 Pegatón S.A. de C.V. Todos los Derechos Reservados.</p>
+        <p class="text-slate-400">Diseñado con tecnología web de alto rendimiento.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Product Details Quick View Modal -->
+  <div id="productModal" class="hidden fixed inset-0 z-50 overflow-y-auto modal-backdrop bg-slate-950/80 flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl relative border border-slate-200">
+      
+      <!-- Close button -->
+      <button id="modalCloseBtn" aria-label="Cerrar modal" class="absolute top-5 right-5 w-8 h-8 rounded-full bg-slate-100 text-slate-600 hover:bg-slate-200 flex items-center justify-center font-bold transition">
+        ✕
+      </button>
+
+      <div class="grid grid-cols-1 sm:grid-cols-12 gap-6 items-start">
+        
+        <div class="sm:col-span-5 bg-slate-100 rounded-2xl p-4 flex items-center justify-center min-h-[220px]">
+          <img id="modalImage" src="" alt="" class="max-h-52 object-contain" />
+        </div>
+
+        <div class="sm:col-span-7 space-y-3">
+          <span id="modalCategory" class="text-[10px] font-bold text-amber-700 bg-amber-100 px-2 py-0.5 rounded-full uppercase"></span>
+          <h3 id="modalTitle" class="text-2xl font-black text-slate-900 font-heading"></h3>
+          <p id="modalTarget" class="text-xs text-slate-600 italic"></p>
+
+          <div class="space-y-1.5 text-xs text-slate-700 pt-2 border-t border-slate-100">
+            <p><strong>Dimensiones:</strong> <span id="modalMeasure"></span></p>
+            <p><strong>Presentación:</strong> <span id="modalContent"></span></p>
+            <p><strong>Corrugado Máster B2B:</strong> <span id="modalCorrugated"></span></p>
+            <p><strong>Tipo de Adhesivo:</strong> <span id="modalGlue"></span></p>
+          </div>
+
+          <div class="pt-2">
+            <h4 class="text-xs font-bold text-slate-900 mb-1">Ventajas Principales:</h4>
+            <ul id="modalFeatures" class="space-y-1"></ul>
+          </div>
+
+          <div class="bg-amber-50 p-2.5 rounded-xl border border-amber-200 text-[11px] text-amber-900">
+            <strong>Recomendación de uso:</strong> <span id="modalTip"></span>
+          </div>
+
+          <div class="pt-3">
+            <button id="modalQuoteBtn" class="w-full py-3 rounded-xl bg-yellow-400 hover:bg-yellow-300 text-slate-950 font-black text-xs flex items-center justify-center gap-2 shadow-md transition">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>Cotizar este producto por WhatsApp</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Floating Sticky WhatsApp Widget -->
+  <div class="fixed bottom-6 right-6 z-40 flex items-center gap-3">
+    <a href="https://wa.me/523310580620?text=Hola%20Pegat%C3%B3n,%20quisiera%20cotizar%20trampas%20de%20pegamento." target="_blank" aria-label="Contactar por WhatsApp" class="w-14 h-14 rounded-full bg-emerald-500 hover:bg-emerald-400 text-white flex items-center justify-center shadow-2xl transition-all duration-300 hover:scale-110 whatsapp-pulse">
+      <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
+        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86.173.086.275.072.376-.044.101-.116.433-.506.549-.68.116-.173.231-.145.39-.086.159.058 1.011.477 1.184.564.173.087.289.13.332.203.043.072.043.419-.101.824z"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      AOS.init({
+        duration: 700,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 80
+      });
+      lucide.createIcons();
+    });
+  </script>
+
+  <!-- Main Application Logic Script -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
